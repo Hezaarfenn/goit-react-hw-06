@@ -1,9 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-import initialContacts from '../data/contactsData.json'; // JSON verisini içe aktar
+import initialContacts from '../data/contactsData.json';
 
 const contactsSlice = createSlice({
   name: 'contacts',
-  initialState: { 
+  initialState: {
     items: initialContacts,
   },
   reducers: {
